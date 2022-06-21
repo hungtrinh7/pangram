@@ -1,5 +1,5 @@
 <?php  
-function isPangrams($s) {
+function isPangram($s) {
     $s = trim(strtolower($s));
     $letters = str_split('abcdefghijklmnopqrstuvwxyz');
     foreach ($letters as $letter) {
